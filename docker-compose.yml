@@ -1,0 +1,12 @@
+services:
+  prog1:
+    build: ./prog1
+    container_name: prog1
+
+  prog2:
+    build: ./prog2
+    container_name: prog2
+
+  prog3:
+    build: ./prog3
+    container_name: prog3
