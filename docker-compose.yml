@@ -1,12 +1,16 @@
 services:
-  prog1:
-    build: ./prog1
-    container_name: prog1
+  prog3:
+    build: ./prog3
+    container_name: prog3
 
   prog2:
     build: ./prog2
     container_name: prog2
+    depends_on:
+      - prog3
 
-  prog3:
-    build: ./prog3
-    container_name: prog3
+  prog1:
+    build: ./prog1
+    container_name: prog1
+    depends_on:
+      - prog2
