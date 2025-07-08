@@ -25,12 +25,12 @@ Este projeto simula a troca de dados entre 3 programas (cliente, servidor e serv
    cd trabalho-redes
 2. Execute o Docker Compose com a flag --build:
 
-```bash
+   ```bash
     docker compose up --build
-```
+   ```
 Os logs dos 3 programas serão exibidos no terminal. O prog3 mostrará as matrizes invertidas, os determinantes e o tempo total de execução.
 
-Observações
+## Observações
 Os containers usam nomes fixos (prog1, prog2, prog3) para garantir que os programas se encontrem via hostname no Docker.
 
 As matrizes são geradas aleatoriamente dentro do prog1.
