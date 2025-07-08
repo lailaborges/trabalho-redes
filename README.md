@@ -33,7 +33,7 @@ Os logs dos 3 programas serão exibidos no terminal. O prog3 mostrará as matriz
 ## Observações
 Os containers usam nomes fixos (prog1, prog2, prog3) para garantir que os programas se encontrem via hostname no Docker.
 
-As matrizes são geradas aleatoriamente dentro do prog1.
+As matrizes são geradas aleatoriamente dentro do prog1 e os valores já são informados no Dockerfile dele.
 
 Toda comunicação ocorre via sockets TCP com troca de mensagens serializadas (JSON ou pickle).
 
